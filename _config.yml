@@ -8,7 +8,8 @@ baseurl:
 
 # Title of the Site
 title-short: "MP2"
-title: "MP<sup>2</sup>: AI meets Moral Philosophy and Moral Psychology"
+title-html: "MP<sup>2</sup>: AI meets Moral Philosophy and Moral Psychology"
+title: "MP2: AI meets Moral Philosophy and Moral Psychology"
 
 # Description of the Site
 description: An Interdisciplinary Dialogue about Computational Ethics at NeurIPs 2023
