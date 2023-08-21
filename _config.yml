@@ -7,7 +7,9 @@ url: 'https://aipsychphil.github.io/'
 baseurl: 
 
 # Title of the Site
+title-short: "MP2"
 title: "MP<sup>2</sup>: AI meets Moral Philosophy and Moral Psychology"
+
 # Description of the Site
 description: An Interdisciplinary Dialogue about Computational Ethics at NeurIPs 2023
 # URL of Image of the Site
