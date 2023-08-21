@@ -2,51 +2,57 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://aipsychphil.github.io/'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
 # Title of the Site
-title: "AI meets Moral Philosophy and Moral Psychology: An Interdisciplinary Dialogue about Computational Ethics"
+title: "MP<sup>2</sup>: AI meets Moral Philosophy and Moral Psychology"
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: An Interdisciplinary Dialogue about Computational Ethics at NeurIPs 2023
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+
+site-image: "/assets/images/An_expressionist_painting_of_a_number_of_academics_teaching_a_robot_the_difference_between_right_and_wrong.png"
+# "/assets/images/robot_head.png"
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: philosophy, psychology, ai ethics, artificial intelligence
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: "/assets/images/robot_head.png"
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: "/assets/images/An_expressionist_painting_of_a_number_of_academics_teaching_a_robot_the_difference_between_right_and_wrong.png"
+
+submit: https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/MP2
+
+neurips: https://neurips.cc/virtual/2023/workshop/66528
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: aipsychphil@gmail.com
+# facebook_username: thedevslot
+# twitter_username: thedevslot
+# instagram_username: thedevslot
+# linkedin_username: thedevslot
+# github_username:  thedevslot
+# youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+# reddit_username: /
+# behance_username: /
+# dribbble_username: /
+# spotify_username: /
 
 # Google Analytics
-google-analytics: UA-163806439-1
+# google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: 
+# disqus-shortname: 
 
 # Name of the Author
-author-name: 
+# author-name: 
 # URL for the Image of the Author
-author-image: 
+# author-image: 
 # 60 Words About the Author
-author-about: 
-author-url:
+# author-about: 
+# author-url:
 
 # SASS
 sass:

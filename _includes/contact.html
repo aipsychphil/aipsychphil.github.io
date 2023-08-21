@@ -1,63 +1,36 @@
-<section class="hero is-fullheight has-text-centered" id="contact">
+<section class="hero is-fullheight" id="contact">
     <div class="hero-body">
         <div class="container">
-            {% unless site.facebook_username == %}
-            <a id="contact-button" href="https://m.me/{{site.facebook_username}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                target="_blank">
-                <i class="fab fa-facebook-messenger"></i>Ping me on Messenger
-            </a>
-            {% endunless %}
-            {% unless site.email == %}
-            <a id="contact-button" href="mailto:{{site.email}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                target="_blank">
-                <i class="fas fa-envelope"></i>Send me an Email
-            </a>
-            {% endunless %}
-            {% unless site.twitter_username == %}
-            <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                target="_blank">
-                <i class="fab fa-twitter"></i>Tweet me on Twitter
-            </a>
-            {% endunless %}
-            <hr>
-            <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                You Can find me here
-            </h3>
-            <div class="column is-full is-size-3">
-                {% unless site.facebook_username == %}
-                <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i class="fab fa-facebook"></i></a>
-                {% endunless %}
-                {% unless site.twitter_username == %}
-                <a href="https://twitter.com/intent/user?screen_name={{site.twitter_username}}" target="_blank" class="has-text-black"><i class="fab fa-twitter"></i></a>
-                {% endunless %}
-                {% unless site.instagram_username ==  %}
-                <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i class="fab fa-instagram"></i></a>
-                {% endunless %}
-                {% unless site.linkedin_username ==  %}
-                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
-                {% endunless %}
-                {% unless site.github_username ==  %}
-                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
-                {% endunless %}
-                {% unless site.youtube_channel_id ==  %}
-                <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-black"><i class="fab fa-youtube"></i></a>
-                {% endunless %}
-                {% unless site.reddit_username ==  %}
-                <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank" class="has-text-black"><i class="fab fa-reddit"></i></a>
-                {% endunless %}
-                {% unless site.behance_username ==  %}
-                <a href="http://www.behance.com/{{site.behance_username}}" target="_blank" class="has-text-black"><i class="fab fa-behance"></i></a>
-                {% endunless %}
-                {% unless site.dribbble_username ==  %}
-                <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank" class="has-text-black"><i class="fab fa-dribbble"></i></a>
-                {% endunless %}
-                {% unless site.spotify_username ==  %}
-                <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-black"><i class="fab fa-spotify"></i></a>
-                {% endunless %}
-            </div>
+      		<h2>Organizing Committee</h2>
+      		<p><a href="https://sites.google.com/site/sydneymlevine"><strong>Sydney Levine</strong></a> is a research scientist at the Allen Institute for Artificial Intelligence, and a research affiliate at the MIT Brain and Cognitive Sciences Department and the Harvard Psychology Department.  She studies human moral judgment through the lens of computational cognitive science and moral philosophy.  Her research aims to bring insights from the study of human morality to the development of ethical AI.  She was the primary organizer for the interdisciplinary "Engineering and Reverse-Engineering Morality" workshop held at the Cognitive Science Society Conference in 2021.</p>
+
+      		<p><a href="https://liweijiang.me"><strong>Liwei Jiang</strong></a> is a Ph.D. student at Paul G. Allen School of Computer Science and Engineering at the University of Washington. Her research focuses on natural language processing (NLP) and Artificial Intelligence (AI) with a focus on machine ethics, computational moral reasoning, and human value modeling, with broader interests in the intersection of humans and AI. Her work has been featured in many media outlets, including New York Times, Wired, the Guardian, the Verge, and IEEE Spectrum. She works as a student researcher at Allen Institute for Artificial Intelligence (AI2).</p>
+
+      		<p><a href="https://jaredmoore.org"><strong>Jared Moore</strong></a> works on making AI systems do the right thing. He's a PhD student at Stanford University's Department of Computer Science, advised by Noah Goodman. Before that, he was a lecturer at the University of Washington School of Computer Science where he made and taught well-reviewed courses on computer ethics and the philosophy of AI. His satirical novel about AI, <a href="https://jaredmoore.org/the-strength-of-the-illusion"><em>The Strength of the Illusion</em></a>, came out in September, 2023.</p>
+
+      		<p><a href="https://zhijing-jin.com"><strong>Zhijing Jin</strong></a> is a Ph.D. student at Max Planck Institute and ETH. Her research focuses on socially responsible NLP via causal and moral principles. Specifically, she works on expanding the impact of NLP by promoting NLP for social good, and developing CausalNLP to improve robustness, fairness, and interpretability of NLP models, as well as analyze the causes of social problems. She has published at many NLP and AI venues (e.g., ACL, EMNLP, NAACL, COLING, NeurIPS, AAAI, AISTATS). Her work has been cited in MIT News, ACM TechNews, WeVolver, VentureBeat, and Synced. She is actively involved in AI for social good, as the organizer of NLP for Positive Impact Workshops at ACL 2021 and EMNLP 2022.</p>
+
+      		<p><a href="https://homes.cs.washington.edu/~yejin/"><strong>Yejin Choi</strong></a> is Brett Helsel professor at the Paul G. Allen School of Computer Science and Engineering at the University of Washington and also a senior research director at AI2 overseeing the project Mosaic. Her research investigates a wide variety of problems across NLP and AI including commonsense knowledge and reasoning, neural language (de-)generation, language grounding with vision and experience, and AI for social good. She is a MacArthur Fellow and a co-recipient of the NAACL Best Paper Award in 2022, the ICML Outstanding Paper Award in 2022, the ACL Test of Time award in 2021, the CVPR Longuet-Higgins Prize (test of time award) in 2021, the NeurIPS Outstanding Paper Award in 2021, the AAAI Outstanding Paper Award in 2020, the Borg Early Career Award (BECA) in 2018, the inaugural Alexa Prize Challenge in 2017, IEEE AI's 10 to Watch in 2016, and the ICCV Marr Prize (best paper award) in 2013. She received her Ph.D. in Computer Science at Cornell University and BS in Computer Science and Engineering at Seoul National University in Korea.  She has been previously involved in supervising the organization of several workshops at ML and NLP venues.</p>
+
+      		<h3>Senior Advisors</h3>
+
+      		<p><a href="https://www.oxford-aiethics.ox.ac.uk/john-tasioulas"><strong>John Tasioulas</strong></a> is Professor of Ethics and Legal Philosophy at Oxford University and Director of the Institute for Ethics in AI.  He was previously Chair of Politics, Philosophy and Law and Director of the Yeoh Tiong Lay Centre for Politics, Philosophy and Law at King’s College London. He is also a Distinguished Research Fellow of the Oxford Uehiro Centre and Emeritus Fellow of Corpus Christi College, Oxford. John is a member of the International Advisory Board, Panel for the Future of Science and Technology (STOA), European Parliament and a member of the AI Consultative Group of the Administrative Conference of the United States.  His recent writings focus on philosophical issues regarding punishment, human rights and international law.</p>
+
+      		<p><a href="https://publichealth.nyu.edu/faculty/s-matthew-liao"><strong>S. Matthew Liao</strong></a> holds the Arthur Zitrin Chair in Bioethics and is the Director for The Center for Bioethics at New York University. From 2006 to 2009, he was the Deputy Director and James Martin Senior Research Fellow in the Program on the Ethics of the New Biosciences in the Faculty of Philosophy at Oxford University. He was the Harold T. Shapiro Research Fellow in the University Center for Human Values at Princeton University in 2003–2004, and a Greenwall Research Fellow at Johns Hopkins University and a Visiting Researcher at the Kennedy Institute of Ethics at Georgetown University from 2004–2006. In May 2007, he founded Ethics Etc, a group blog for discussing contemporary philosophical issues in ethics and related areas. He is interested in a wide range of issues including ethics, epistemology, metaphysics, moral psychology, and bioethics.</p>
+
+      		<h3>Program Committee</h3>
+			
+			<p>Confirmed PC Members: Jena D. Hwang (AI), Wei Qiu (AI), Taylor Sorensen (AI), Xavier Roberts-Gaal (Psychology), Gus Skorburg (Philosophy), Julian Michael (AI), Arthur Le Pargneux (Psychology), Joe Kwon (AI/Psychology), Maarten Sap (AI), Jillian Fisher (AI), Iyad Rahwan (Psychology/AI), Yuchen Lin (AI), Lorraine Xiang Li (AI), Lio Wong (AI/Psychology), Jean-Francois Bonnefon (AI), Levin Brinkmann (Psychology/AI), Mengchen Dong (Psychology), Jaehun Jung (AI), Michael Anderson (Philosophy), Edmond Awad (AI), Jim Everett (Psychology), Marlene Berke (Psychology), Jan-Philipp Franken (AI/Psychology), Nouha Dziri (AI), Alisa Liu (AI), Wenting Zhao (AI), Yuling Gu (AI), Zoe Purcell (Psychology), Sarah Wu (Psychology), Marija Slavkovic (AI), Hyunwoo Kim (AI), Valentina Pyatkin (AI)</p>
+
+			<div class="container has-text-centered">
+				<div class="hero-body">
+				<a href="mailto:{{site.email}}"
+	                class="contact-button button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+	                target="_blank">
+	                <i class="fas fa-envelope"></i>Email us
+	            </a>
+		        </div>
+	        </div>
         </div>
     </div>
 </section>

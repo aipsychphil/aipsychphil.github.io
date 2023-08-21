@@ -353,3 +353,30 @@ a.navbar-item.is-active {
         }
     }
 }
+
+p, h1, h2, h3, h {
+    padding-bottom: .5em;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h1, h2, h3, h4 {
+    padding-top: 1em;
+}
+
+ul, ol {
+    list-style: initial;
+    margin-left: 1em;
+}
+
+.contact-button {
+    margin: .5rem auto;
+    display: flex;
+    justify-content: center;
+}
