@@ -25,6 +25,8 @@ favicon-url: "/assets/images/robot_head.png"
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: "/assets/images/An_expressionist_painting_of_a_number_of_academics_teaching_a_robot_the_difference_between_right_and_wrong.png"
 
+twitter_username: mp2_neurips2023
+
 submit: https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/MP2
 
 neurips: https://neurips.cc/virtual/2023/workshop/66528
@@ -99,7 +101,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
